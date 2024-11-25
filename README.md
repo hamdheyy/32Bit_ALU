@@ -62,6 +62,8 @@ After this you can see the window like below
 
 ### Fig 2: Invoke the Cadence Environment
 
+![Screenshot 2024-11-16 112748](https://github.com/user-attachments/assets/40d55b5f-8915-42ce-8835-867b4a1fc96a)
+
 To Launch Simulation tool 
 
 •linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design 
@@ -75,11 +77,15 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ### Fig 3: Setting Multi-step simulation
 
+![Screenshot 2024-11-16 112942](https://github.com/user-attachments/assets/b63656df-9ff7-42e9-8790-4857a450b651)
+
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
 
 ### Fig 4:cds.lib file Creation
+
+![Screenshot 2024-11-16 113006](https://github.com/user-attachments/assets/e7960ace-cb02-4baa-9ab5-e08d0dd27a4d)
 
 Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
 
@@ -102,6 +108,8 @@ Worklib is the directory where all the compiled codes are stored while Snapshot 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
 ### Fig 6: Nclaunch Window
+
+![image](https://github.com/user-attachments/assets/9ec002a3-d899-4870-989f-bbbb1f4eefd4)
 
 ## Step 1: Compilation:
 
@@ -126,6 +134,8 @@ Left side select the file and in Tools : launch verilog compiler with current se
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ### Fig 7: Compiled database in worklib
+
+![image](https://github.com/user-attachments/assets/880f3718-bfe9-45e0-85c0-43ac6b7493c7)
 
 After compilation it will come under worklib you can see in right side window
 
@@ -161,6 +171,8 @@ After elaboration the file will come under snapshot. Select the test bench and s
 
 ## Fig 8: Elaboration Launch Option
 
+![image](https://github.com/user-attachments/assets/d9e63a0a-b81a-46d2-8dd4-92033d40d777)
+
 ## Step 3: Simulation: 
 
 – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -175,13 +187,17 @@ Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
 
+![Screenshot 2024-11-16 113927](https://github.com/user-attachments/assets/37592235-ab13-4e24-9359-45f8d2c23690)
+
 ## Fig 10:Simulation Waveform Window
 
-## Fig 11:Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/ccc520fb-f679-4f4e-91ac-c8ba36625daf)
 
 ### Result
 
 The functionality of a 32-bit ALU was successfully verified using a test bench and simulated with the nclaunch tool.
+
+
 
 
 
